@@ -1,9 +1,8 @@
-#REPORT: ANSWERS TO QUESTIONS
+REPORT: ANSWERS TO QUESTIONS
 
+Part 1 — Setup & Discovery
 
-###Part 1 — Setup & Discovery
-
-**Q: Explain the default lifecycle of a JAX-RS resource class.
+Q: Explain the default lifecycle of a JAX-RS resource class.
 
 In JAX-RS, resource classes follow a per-request lifecycle by default, meaning a new instance of the class is created every time a request is made. Because of this, any instance variables don’t persist between requests, so they can’t be used to store shared data.
 
